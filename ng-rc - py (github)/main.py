@@ -422,7 +422,7 @@ df1, df2 = ngrc_forecast(w_out, *arguments)
 plots_compare_3d(df1, df2)
 ''' 
 #LLE: 0.101 0.097 62
-
+'''
 lst = []
 
 for n_ini in range(1000,10000,100):
@@ -437,7 +437,7 @@ for n_ini in range(1000,10000,100):
         print(mean(lst), median(lst), len(lst))
     except:
         pass
-
+'''
 
 #BRASILIA METEOROLOGICAL
 '''
